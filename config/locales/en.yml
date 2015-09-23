@@ -21,3 +21,19 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    attributes:
+      competency:
+        name: "De naam van de competentie"
+        european_credit: "Het aantal te behalen EC's"
+        level: "Het niveau van de te behalen competentie"
+    errors:
+      models:
+        competency:
+          attributes:
+              name:
+                blank: "moet worden geselecteerd!"
+              european_credit:
+                blank: "moet worden geselecteerd!"
+              level:
+                blank: "moet worden geselecteerd!"
